@@ -14,7 +14,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    border: 2px solid red;
+    border: 2px solid rgb(158, 218, 255);
 }
 
 .relogio_digital {
