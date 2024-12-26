@@ -87,7 +87,7 @@ body {
   }
 
   #calendario {
-    grid-template-columns: repeat(3, 1fr); /* Ajuste do número de colunas */
+    grid-template-columns: repeat(4, 1fr); /* Ajuste do número de colunas */
     padding: 10px;
   }
 
