@@ -1,63 +1,90 @@
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #000000;
-    font-family: 'Times New Roman', Times, serif, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #000000;
+  font-family: "Times New Roman", Times, serif, sans-serif;
 }
 
-#bateria, #relogio {
-    background-color: #000;
-    color: #b0feff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    border: 2px solid #b0feff;
-    margin: 30px;
+#bateria,
+#relogio {
+  background-color: #000;
+  color: #b0feff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border: 2px solid #b0feff;
+  margin: 30px;
 }
 
 .relogio_digital {
-    font-size: 50px;
-    text-align: center;
+  font-size: 50px;
+  text-align: center;
 }
 
 .nivel {
-    font-size: 50px;
-    text-align: center;
+  font-size: 50px;
+  text-align: center;
 }
 
 #calendario-container {
-    text-align: center;
+  text-align: center;
 }
 
 #mes-ano {
-    color: #b0feff;
-    margin-bottom: 20px;
+  color: #b0feff;
+  margin-bottom: 20px;
 }
 
 #calendario {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    gap: 10px;
-    background-color: #000;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    border: 2px solid #b0feff;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  background-color: #000;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border: 2px solid #b0feff;
 }
 
 .dia {
-    background-color: #000;
-    color: #b0feff;
-    padding: 10px;
-    text-align: center;
-    border-radius: 5px;
+  background-color: #000;
+  color: #b0feff;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
 }
 
 .hoje {
-    background-color: #b0feff; /* Destaque para o dia de hoje */
-    color: #000;
+  background-color: #b0feff; /* Destaque para o dia de hoje */
+  color: #000;
+}
+
+@media (max-width: 600px) {
+  .relogio_digital,
+  .nivel {
+    font-size: 30px;
+  }
+  #bateria,
+  #relogio {
+    padding: 10px;
+    margin: 10px;
+  }
+  #calendario {
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10px;
+  }
+}
+
+html {
+  font-size: 100%;
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 90%;
+  }
 }
