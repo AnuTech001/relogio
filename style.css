@@ -9,7 +9,7 @@ body {
     font-family: 'Times New Roman', Times, serif, sans-serif;
 }
 
-#relogio, #bateria {
+#bateria, #relogio {
     background-color: #000;
     color: #b0feff;
     padding: 20px;
