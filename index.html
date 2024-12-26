@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt - BR">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,6 +14,15 @@
   <body>
     <div id="relogio">
       <div class="relogio_digital" id="relogio_digital"></div>
+    </div>
+    <div id="bateria">
+      <h1>Status da Bateria: <span id="status"></span></h1>
+      <p>Nível de Energia: <span id="nivel"></span>%</p>
+      <p id="mensagem"></p>
+    </div>
+    <div id="calendario-container">
+      <h2 id="mes-ano"></h2>
+      <div id="calendario"></div>
     </div>
     <script src="script.js"></script>
     <!-- Script do funcionamento do relógio -->
