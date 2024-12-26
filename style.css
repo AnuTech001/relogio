@@ -74,7 +74,7 @@ body {
     margin: 10px;
   }
   #calendario {
-    grid-template-columns: repeat(3, 0fr);
+    grid-template-columns: repeat(3, 5fr);
     padding: 5px;
   }
   .dia-semana {
