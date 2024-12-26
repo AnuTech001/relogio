@@ -63,30 +63,42 @@ body {
   color: #000;
 }
 
+/* Estilo para os dias da semana */
+.dia-semana {
+  background-color: #000;
+  color: #b0feff;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Adicionando media queries para dispositivos móveis */
 @media (max-width: 600px) {
   .relogio_digital,
   .nivel {
     font-size: 30px;
   }
+
   #bateria,
   #relogio {
     padding: 10px;
     margin: 10px;
   }
+
   #calendario {
-    grid-template-columns: repeat(3, 1fr);
-    padding: 5px;
-  }
-  .dia-semana {
-    background-color: #000;
-    color: #b0feff;
+    grid-template-columns: repeat(3, 1fr); /* Ajuste do número de colunas */
     padding: 10px;
-    text-align: center;
-    border-radius: 5px;
-    font-weight: bold;
+  }
+
+  .dia,
+  .dia-semana {
+    padding: 5px;
+    font-size: 12px;
   }
 }
 
+/* Ajustando a tipografia para dispositivos móveis */
 html {
   font-size: 100%;
 }
