@@ -77,9 +77,13 @@ body {
     grid-template-columns: repeat(3, 1fr);
     padding: 5px;
   }
-  .dia {
-    padding: 5px;
-    font-size: 12px;
+  .dia-semana {
+    background-color: #000;
+    color: #b0feff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
   }
 }
 
