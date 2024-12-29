@@ -64,6 +64,13 @@ body {
   color: #000;
 }
 
+#mensagem2 {
+  color: #b0feff;
+  font-size: 25px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
 /* Estilo para os dias da semana */
 .dia-semana {
   background-color: #000;
