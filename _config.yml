@@ -4,3 +4,14 @@ defaults:
     values:
       headers:
         Cache-Control: "no-cache, no-store, must-revalidate"
+        Content-Type: "text/html"
+  - scope:
+      path: "*.css"
+    values:
+      headers:
+        Content-Type: "text/css"
+  - scope:
+      path: "*.js"
+    values:
+      headers:
+        Content-Type: "application/javascript"
