@@ -1,0 +1,6 @@
+defaults:
+  - scope:
+      path: ""
+    values:
+      headers:
+        Cache-Control: "no-cache, no-store, must-revalidate"
