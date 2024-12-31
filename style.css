@@ -32,6 +32,7 @@ body {
 
 #calendario-container {
   text-align: center;
+  margin-bottom: 1px;
 }
 
 #mes-ano {
@@ -45,7 +46,7 @@ body {
   grid-template-columns: repeat(7, 1fr);
   gap: 10px;
   background-color: #000;
-  padding: 20px;
+  padding: 10px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border: 2px solid #b0feff;
@@ -79,6 +80,15 @@ body {
   text-align: center;
   border-radius: 5px;
   font-weight: bold;
+}
+
+#autoria {
+  color: #b0feff;
+  padding: 1px;
+  text-align: center;
+  margin-bottom: 1px;
+  border-radius: 5px;
+  border: 2px solid #b0feff;
 }
 
 /* Adicionando media queries para dispositivos móveis */
