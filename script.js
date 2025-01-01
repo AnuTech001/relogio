@@ -88,7 +88,7 @@ function criar_calendario(mes, ano) {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  criar_calendario(11, 2024,);
+  criar_calendario(0, 2025,);
   setInterval(function() {
     const agora = new Date();
     const mes = agora.getMonth();
