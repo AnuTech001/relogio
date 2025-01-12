@@ -34,13 +34,6 @@ function criar_calendario(mes, ano) {
   const primeiro_dia = new Date(ano, mes, 1).getDay();
   const calendario = document.getElementById("calendario");
 
-  // Verifica se é dezembro de 2024 para exibir a mensagem de Ano Novo
-  if (mes === 0 && ano === 2025) {
-    document.getElementById("mensagem2").textContent = "Feliz Ano Novo!!!";
-  } else {
-    document.getElementById("mensagem2").textContent = "";
-  }
-
   calendario.innerHTML = "";
   const dias_da_semana = ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sáb"];
   dias_da_semana.forEach((dia) => {
